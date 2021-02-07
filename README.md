@@ -1,2 +1,2 @@
-# homebrew-cased
+# homebrew-tap
 Homebrew tap for Cased Guard
