@@ -3,7 +3,7 @@ Install [Cased Guard](https://github.com/cased/guard) using Homebrew
 
 ## What is homebrew and what are homebrew taps
 
-Homebrew is package manager for macOS (or Linux). Check out https://brew.sh 
+Homebrew is a package manager for macOS (or Linux). Check out https://brew.sh 
 for details and install instructions for Homebrew itself.
 
 A tap is a third-party repository that provides installable
