@@ -3,8 +3,8 @@ class Cased < Formula
 
   desc "Cased Guard command-line client"
   homepage "https://github.com/cased/guard"
-  url "https://files.pythonhosted.org/packages/65/6e/d80eb7d146fb4dcbf50eb4a5703bed0d94d4a95c69d5aea41dd926a0a804/cased-0.5.7.tar.gz"
-  sha256 "0c0f9304712b72a806c10b87d25aa50d1cf9e9e3effd7ab9a3f838331d5feb05"
+  url "https://files.pythonhosted.org/packages/4c/1c/81d15d66ab10218399d4dee87bfe3034bdf98b543bc7b47d84d848c73569/cased-0.5.8.tar.gz"
+  sha256 "929fae8c5937d8f222a3445e3b7adb88dfe3b00c0e4fd0346f618dc732b3b73a"
 
   depends_on "python3"
 
@@ -19,18 +19,18 @@ class Cased < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/e6/de/879cf857ae6f890dfa23c3d6239814c5471936b618c8fb0c8732ad5da885/certifi-2020.11.8.tar.gz"
-    sha256 "f05def092c44fbf25834a51509ef6e631dc19765ab8a57b4e7ab85531f0a9cf4"
+    url "https://files.pythonhosted.org/packages/06/a9/cd1fd8ee13f73a4d4f491ee219deeeae20afefa914dfb4c130cfc9dc397a/certifi-2020.12.5.tar.gz"
+    sha256 "1a4995114262bffbc2413b159f2a1a480c969de6e6eb13ee966d470af86af59c"
   end
 
   resource "chardet" do
-    url "https://files.pythonhosted.org/packages/fc/bb/a5768c230f9ddb03acc9ef3f0d4a3cf93462473795d18e9535498c8f929d/chardet-3.0.4.tar.gz"
-    sha256 "84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae"
+    url "https://files.pythonhosted.org/packages/ee/2d/9cdc2b527e127b4c9db64b86647d567985940ac3698eeabc7ffaccb4ea61/chardet-4.0.0.tar.gz"
+    sha256 "0d6f53a15db4120f2b08c94f11e7d93d2c911ee118b6b30a04ec3ee8310179fa"
   end
 
   resource "execnet" do
-    url "https://files.pythonhosted.org/packages/5a/61/1b50e0891d9b934154637fdaac88c68a82fd8dc5648dfb04e65937fc6234/execnet-1.7.1.tar.gz"
-    sha256 "cacb9df31c9680ec5f95553976c4da484d407e85e41c83cb812aa014f0eddc50"
+    url "https://files.pythonhosted.org/packages/99/f6/1963d06df2a3ae483c5dc6ed292b472f8eb1764b0b6415eafa894d938e7c/execnet-1.8.0.tar.gz"
+    sha256 "b73c5565e517f24b62dea8a5ceac178c661c4309d3aa0c3e420856c072c411b4"
   end
 
   resource "idna" do
@@ -44,13 +44,13 @@ class Cased < Formula
   end
 
   resource "mock" do
-    url "https://files.pythonhosted.org/packages/2e/35/594f501b2a0fb3732c8190ca885dfdf60af72d678cd5fa8169c358717567/mock-4.0.2.tar.gz"
-    sha256 "dd33eb70232b6118298d516bbcecd26704689c386594f0f3c4f13867b2c56f72"
+    url "https://files.pythonhosted.org/packages/e2/be/3ea39a8fd4ed3f9a25aae18a1bff2df7a610bca93c8ede7475e32d8b73a0/mock-4.0.3.tar.gz"
+    sha256 "7d3fbbde18228f4ff2f1f119a45cdffa458b4c0dee32eb4d2bb2f82554bac7bc"
   end
 
   resource "packaging" do
-    url "https://files.pythonhosted.org/packages/55/fd/fc1aca9cf51ed2f2c11748fa797370027babd82f87829c7a8e6dbe720145/packaging-20.4.tar.gz"
-    sha256 "4357f74f47b9c12db93624a82154e9b120fa8293699949152b22065d556079f8"
+    url "https://files.pythonhosted.org/packages/86/3c/bcd09ec5df7123abcf695009221a52f90438d877a2f1499453c6938f5728/packaging-20.9.tar.gz"
+    sha256 "5b327ac1320dc863dca72f4514ecc086f31186744b84a230374cc1fd776feae5"
   end
 
   resource "pluggy" do
@@ -59,8 +59,8 @@ class Cased < Formula
   end
 
   resource "py" do
-    url "https://files.pythonhosted.org/packages/97/a6/ab9183fe08f69a53d06ac0ee8432bc0ffbb3989c575cc69b73a0229a9a99/py-1.9.0.tar.gz"
-    sha256 "9ca6883ce56b4e8da7e79ac18787889fa5206c79dcc67fb065376cd2fe03f342"
+    url "https://files.pythonhosted.org/packages/0d/8c/50e9f3999419bb7d9639c37e83fa9cdcf0f601a9d407162d6c37ad60be71/py-1.10.0.tar.gz"
+    sha256 "21b81bda15b66ef5e1a777a21c4dcd9c20ad3efd0b3f817e7a809035269e1bd3"
   end
 
   resource "pyparsing" do
@@ -69,8 +69,8 @@ class Cased < Formula
   end
 
   resource "pytest" do
-    url "https://files.pythonhosted.org/packages/d4/df/bd7c25c4fe809a17315b3fc9878edf48d31dde7b431b6836848b063c0428/pytest-6.1.2.tar.gz"
-    sha256 "c0a7e94a8cdbc5422a51ccdad8e6f1024795939cc89159a0ae7f0b316ad3823e"
+    url "https://files.pythonhosted.org/packages/d1/80/b4f47a1f933699cd531a7b336a6f3d82912e3e5e66e4a3bb1d8f0d1d98b0/pytest-6.2.2.tar.gz"
+    sha256 "9d1edf9e7d0b84d72ea3dbcdfd22b35fb543a5e8f2a60092dd578936bf63d7f9"
   end
 
   resource "pytest-forked" do
@@ -79,18 +79,18 @@ class Cased < Formula
   end
 
   resource "pytest-mock" do
-    url "https://files.pythonhosted.org/packages/41/f4/01dcecb04489310c83625cb7ece2060f51160c58e2322438d7e1f1677468/pytest-mock-3.3.1.tar.gz"
-    sha256 "a4d6d37329e4a893e77d9ffa89e838dd2b45d5dc099984cf03c703ac8411bb82"
+    url "https://files.pythonhosted.org/packages/24/1b/ddad49c762bddfe3cb61c8ba61349701afd584b84ff4189721bcba624598/pytest-mock-3.5.1.tar.gz"
+    sha256 "a1e2aba6af9560d313c642dae7e00a2a12b022b80301d9d7fc8ec6858e1dd9fc"
   end
 
   resource "pytest-xdist" do
-    url "https://files.pythonhosted.org/packages/17/18/bb102b7131f1c08e5d9f0a6a5904e0b4cf02160bdde1645fc386461b5423/pytest-xdist-2.1.0.tar.gz"
-    sha256 "82d938f1a24186520e2d9d3a64ef7d9ac7ecdf1a0659e095d18e596b8cbd0672"
+    url "https://files.pythonhosted.org/packages/40/5f/a5aeb0bcc8db09413117ad953dcf4e84dae8ceb604db0176aacdbcb6eca6/pytest-xdist-2.2.1.tar.gz"
+    sha256 "718887296892f92683f6a51f25a3ae584993b06f7076ce1e1fd482e59a8220a2"
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/9f/14/4a6542a078773957aa83101336375c9597e6fe5889d20abda9c38f9f3ff2/requests-2.25.0.tar.gz"
-    sha256 "7f1a0b932f4a60a1a65caa4263921bb7d9ee911957e0ae4a23a6dd08185ad5f8"
+    url "https://files.pythonhosted.org/packages/6b/47/c14abc08432ab22dc18b9892252efaf005ab44066de871e72a38d6af464b/requests-2.25.1.tar.gz"
+    sha256 "27973dd4a904a4f13b263a19c866c13b92a39ed1c964655f025f3f8d3d75b804"
   end
 
   resource "responses" do
@@ -109,13 +109,13 @@ class Cased < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/29/e6/d1a1d78c439cad688757b70f26c50a53332167c364edb0134cadd280e234/urllib3-1.26.2.tar.gz"
-    sha256 "19188f96923873c92ccb987120ec4acaa12f0461fa9ce5d3d0772bc965a39e08"
+    url "https://files.pythonhosted.org/packages/d7/8d/7ee68c6b48e1ec8d41198f694ecdc15f7596356f2ff8e6b1420300cf5db3/urllib3-1.26.3.tar.gz"
+    sha256 "de3eedaad74a2683334e282005cd8d7f22f4d55fa690a2a1020a416cb0a47e73"
   end
 
   resource "yaspin" do
-    url "https://files.pythonhosted.org/packages/f8/6d/7d5d081db3f399f5e345ad5107fa015f84a0c0dd62f1c9deb277ba83774e/yaspin-1.2.0.tar.gz"
-    sha256 "72e9cdbc0e797ef886c373fef2bcd6526a704a470696f9d78d0bb27951fe659a"
+    url "https://files.pythonhosted.org/packages/a9/86/3fb69c0af2a3ccaaa12fa180e91664b8d9e31377698d1fac0a76351c312d/yaspin-1.3.0.tar.gz"
+    sha256 "cc37d35cc7f796dada6c37430b49e471ffa05d0686e6f8de36f83978b732df54"
   end
 
   def install
