@@ -3,8 +3,8 @@ class Cased < Formula
 
   desc "Cased Guard command-line client"
   homepage "https://github.com/cased/guard"
-  url "https://files.pythonhosted.org/packages/fb/0d/b7a095d062e37ec40310f476f4fe54a3708c5156ae85e8032552836c8944/cased-0.5.6.tar.gz"
-  sha256 "b5cdc3c4ffb5db22fd2a07d3f835b92503a5b91440f4831ad9fcaba3cec27dd2"
+  url "https://files.pythonhosted.org/packages/65/6e/d80eb7d146fb4dcbf50eb4a5703bed0d94d4a95c69d5aea41dd926a0a804/cased-0.5.7.tar.gz"
+  sha256 "0c0f9304712b72a806c10b87d25aa50d1cf9e9e3effd7ab9a3f838331d5feb05"
 
   depends_on "python3"
 
