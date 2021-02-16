@@ -3,8 +3,8 @@ class Cased < Formula
 
   desc "Cased Guard command-line client"
   homepage "https://github.com/cased/guard"
-  url "https://files.pythonhosted.org/packages/4c/1c/81d15d66ab10218399d4dee87bfe3034bdf98b543bc7b47d84d848c73569/cased-0.5.8.tar.gz"
-  sha256 "929fae8c5937d8f222a3445e3b7adb88dfe3b00c0e4fd0346f618dc732b3b73a"
+  url "https://files.pythonhosted.org/packages/00/17/c812b626c8dfed819a886878f1d1c3fb4eb757d13419f447fd1037e219b5/cased-0.5.9.tar.gz"
+  sha256 "22154adfbce64e9a2c9e5e52a60e13398edf3aa83b85e073fe99a843fcd505cb"
 
   depends_on "python3"
 
@@ -111,11 +111,6 @@ class Cased < Formula
   resource "urllib3" do
     url "https://files.pythonhosted.org/packages/d7/8d/7ee68c6b48e1ec8d41198f694ecdc15f7596356f2ff8e6b1420300cf5db3/urllib3-1.26.3.tar.gz"
     sha256 "de3eedaad74a2683334e282005cd8d7f22f4d55fa690a2a1020a416cb0a47e73"
-  end
-
-  resource "yaspin" do
-    url "https://files.pythonhosted.org/packages/a9/86/3fb69c0af2a3ccaaa12fa180e91664b8d9e31377698d1fac0a76351c312d/yaspin-1.3.0.tar.gz"
-    sha256 "cc37d35cc7f796dada6c37430b49e471ffa05d0686e6f8de36f83978b732df54"
   end
 
   def install
