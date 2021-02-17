@@ -1,8 +1,8 @@
 class Cased < Formula
   include Language::Python::Virtualenv
 
-  desc "Cased Guard command-line client"
-  homepage "https://github.com/cased/guard"
+  desc "Cased command-line client"
+  homepage "https://github.com/cased/cli"
   url "https://files.pythonhosted.org/packages/00/17/c812b626c8dfed819a886878f1d1c3fb4eb757d13419f447fd1037e219b5/cased-0.5.9.tar.gz"
   sha256 "22154adfbce64e9a2c9e5e52a60e13398edf3aa83b85e073fe99a843fcd505cb"
 
