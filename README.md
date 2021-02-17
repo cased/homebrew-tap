@@ -1,5 +1,5 @@
 # homebrew-tap
-Install [Cased Guard](https://github.com/cased/guard) using Homebrew
+Install [Cased CLI](https://github.com/cased/guard) using Homebrew
 
 ## What is homebrew and what are homebrew taps
 
