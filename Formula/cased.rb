@@ -3,8 +3,8 @@ class Cased < Formula
 
   desc "Cased command-line client"
   homepage "https://github.com/cased/cli"
-  url "https://files.pythonhosted.org/packages/f8/55/5538f1583fef832bf71d61f4e0f006e70e3ea979c149ea8b3eb08a5bd203/cased-0.6.0.tar.gz"
-  sha256 "c2898d6d54744ed8842ac11f71c50257fefb93520997a9e3b5463b206919483e"
+  url "https://files.pythonhosted.org/packages/56/24/ca212efc24542d58d718e1eda863d0e22205f91760947d95885d38ff5801/cased-0.6.1.tar.gz"
+  sha256 "0263cc2fca9191d4a29dc97e7b32ab57c93653c1cf04ccba799d7a8ac1660cb8"
 
   depends_on "python3"
 
@@ -29,8 +29,8 @@ class Cased < Formula
   end
 
   resource "pyparsing" do
-    url "https://files.pythonhosted.org/packages/c1/47/dfc9c342c9842bbe0036c7f763d2d6686bcf5eb1808ba3e170afdb282210/pyparsing-2.4.7.tar.gz"
-    sha256 "c203ec8783bf771a155b207279b9bccb8dea02d8f0c9e5f8ead507bc3246ecc1"
+    url "https://files.pythonhosted.org/packages/2a/55/640c081b8b9d974665aa991be7b55ac75faa0e608a4125e03a96c253c1a1/pyparsing-3.0.0b2.tar.gz"
+    sha256 "1c6409312ce2ce2997896af5756753778d5f1603666dba5587804f09ad82ed27"
   end
 
   resource "requests" do
@@ -39,8 +39,8 @@ class Cased < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/d7/8d/7ee68c6b48e1ec8d41198f694ecdc15f7596356f2ff8e6b1420300cf5db3/urllib3-1.26.3.tar.gz"
-    sha256 "de3eedaad74a2683334e282005cd8d7f22f4d55fa690a2a1020a416cb0a47e73"
+    url "https://files.pythonhosted.org/packages/cb/cf/871177f1fc795c6c10787bc0e1f27bb6cf7b81dbde399fd35860472cecbc/urllib3-1.26.4.tar.gz"
+    sha256 "e7b021f7241115872f92f43c6508082facffbd1c048e3c6e2bb9c2a157e28937"
   end
 
   def install
