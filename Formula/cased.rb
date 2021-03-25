@@ -3,8 +3,8 @@ class Cased < Formula
 
   desc "Cased command-line client"
   homepage "https://github.com/cased/cli"
-  url "https://files.pythonhosted.org/packages/56/24/ca212efc24542d58d718e1eda863d0e22205f91760947d95885d38ff5801/cased-0.6.1.tar.gz"
-  sha256 "0263cc2fca9191d4a29dc97e7b32ab57c93653c1cf04ccba799d7a8ac1660cb8"
+  url "https://files.pythonhosted.org/packages/36/c2/7df9dbaa89345062dfa3a6ca82aaf6fca3843ae398cdce377a95c6e30d29/cased-0.6.3.tar.gz"
+  sha256 "a3b964d6673d4fc6ce6103eb692905aaa9c354e53477dcb19c00fba65fcd719d"
 
   depends_on "python3"
 
