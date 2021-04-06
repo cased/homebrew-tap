@@ -3,8 +3,8 @@ class Cased < Formula
 
   desc "Cased command-line client"
   homepage "https://github.com/cased/cli"
-  url "https://files.pythonhosted.org/packages/3f/ce/ab22c0393b6d104e655ad165457cdbf57d890df167f042d9b7471bd5c6df/cased-0.6.4.tar.gz"
-  sha256 "d3b02b0638084a59ae40a4e14be4c09d405af3b9a3c448f3f5d2b2d40f667825"
+  url "https://files.pythonhosted.org/packages/9e/74/f05928023ee7004870e60d74a30921e74f5ef57c47255080004d7f1cbc77/cased-0.6.5.tar.gz"
+  sha256 "4ab4617b710da11ee3b6bb37bfa4221d183e2a809e447c3f2d467b2b5d31625e"
 
   depends_on "python3"
 
@@ -16,6 +16,16 @@ class Cased < Formula
   resource "chardet" do
     url "https://files.pythonhosted.org/packages/ee/2d/9cdc2b527e127b4c9db64b86647d567985940ac3698eeabc7ffaccb4ea61/chardet-4.0.0.tar.gz"
     sha256 "0d6f53a15db4120f2b08c94f11e7d93d2c911ee118b6b30a04ec3ee8310179fa"
+  end
+
+  resource "gitdb" do
+    url "https://files.pythonhosted.org/packages/34/fe/9265459642ab6e29afe734479f94385870e8702e7f892270ed6e52dd15bf/gitdb-4.0.7.tar.gz"
+    sha256 "96bf5c08b157a666fec41129e6d327235284cca4c81e92109260f353ba138005"
+  end
+
+  resource "GitPython" do
+    url "https://files.pythonhosted.org/packages/5f/f2/ea3242d97695451ab1521775a85253e002942d2c8f4519ae1172c0f5f979/GitPython-3.1.14.tar.gz"
+    sha256 "be27633e7509e58391f10207cd32b2a6cf5b908f92d9cd30da2e514e1137af61"
   end
 
   resource "idna" do
@@ -36,6 +46,11 @@ class Cased < Formula
   resource "requests" do
     url "https://files.pythonhosted.org/packages/6b/47/c14abc08432ab22dc18b9892252efaf005ab44066de871e72a38d6af464b/requests-2.25.1.tar.gz"
     sha256 "27973dd4a904a4f13b263a19c866c13b92a39ed1c964655f025f3f8d3d75b804"
+  end
+
+  resource "smmap" do
+    url "https://files.pythonhosted.org/packages/dd/d4/2b4f196171674109f0fbb3951b8beab06cd0453c1b247ec0c4556d06648d/smmap-4.0.0.tar.gz"
+    sha256 "7e65386bd122d45405ddf795637b7f7d2b532e7e401d46bbe3fb49b9986d5182"
   end
 
   resource "urllib3" do
