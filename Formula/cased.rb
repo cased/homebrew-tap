@@ -3,8 +3,8 @@ class Cased < Formula
 
   desc "Cased command-line client"
   homepage "https://github.com/cased/cli"
-  url "https://files.pythonhosted.org/packages/9e/74/f05928023ee7004870e60d74a30921e74f5ef57c47255080004d7f1cbc77/cased-0.6.5.tar.gz"
-  sha256 "4ab4617b710da11ee3b6bb37bfa4221d183e2a809e447c3f2d467b2b5d31625e"
+  url "https://files.pythonhosted.org/packages/84/03/4f13363146b1c0f85f2f0ee88ba8dd338436ee20fc5bdf2f0c51879695d5/cased-0.6.6.tar.gz"
+  sha256 "9ef325a0789e0f36cb86f982c3e96d9ea900338a1cbad573e62ce73a23d05c79"
 
   depends_on "python3"
 
@@ -24,8 +24,8 @@ class Cased < Formula
   end
 
   resource "GitPython" do
-    url "https://files.pythonhosted.org/packages/5f/f2/ea3242d97695451ab1521775a85253e002942d2c8f4519ae1172c0f5f979/GitPython-3.1.14.tar.gz"
-    sha256 "be27633e7509e58391f10207cd32b2a6cf5b908f92d9cd30da2e514e1137af61"
+    url "https://files.pythonhosted.org/packages/4a/8a/1519359949ce416eb059966c483fe340547a6fb5efb9f1dbcc0b33483146/GitPython-3.1.15.tar.gz"
+    sha256 "05af150f47a5cca3f4b0af289b73aef8cf3c4fe2385015b06220cbcdee48bb6e"
   end
 
   resource "idna" do
@@ -51,6 +51,11 @@ class Cased < Formula
   resource "smmap" do
     url "https://files.pythonhosted.org/packages/dd/d4/2b4f196171674109f0fbb3951b8beab06cd0453c1b247ec0c4556d06648d/smmap-4.0.0.tar.gz"
     sha256 "7e65386bd122d45405ddf795637b7f7d2b532e7e401d46bbe3fb49b9986d5182"
+  end
+
+  resource "typing-extensions" do
+    url "https://files.pythonhosted.org/packages/16/06/0f7367eafb692f73158e5c5cbca1aec798cdf78be5167f6415dd4205fa32/typing_extensions-3.7.4.3.tar.gz"
+    sha256 "99d4073b617d30288f569d3f13d2bd7548c3a7e4c8de87db09a9d29bb3a4a60c"
   end
 
   resource "urllib3" do
